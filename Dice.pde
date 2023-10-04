@@ -79,7 +79,7 @@ void draw()
 
   }
   }
-System.out.println(counter);
+text(counter, 500,500);
  //dying.show();
  
  
