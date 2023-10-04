@@ -15,7 +15,7 @@ class Dice
   int roll()
   {
   value=(int)(Math.random()*6);
-  return value;
+  return value+1;
   }
   void show()
   {
