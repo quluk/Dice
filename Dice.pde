@@ -79,6 +79,7 @@ void draw()
 
   }
   }
+fill(0,0,0);
 text(counter, 500,500);
  //dying.show();
  
