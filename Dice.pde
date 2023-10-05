@@ -53,8 +53,8 @@ class Dice
       ellipse(myX+110,myY+40,size-120,size-120);
       ellipse(myX+40,myY+75,size-120,size-120);
       ellipse(myX+110,myY+75,size-120,size-120);
-    
-    
+   
+   
     }
   }
 }
@@ -72,14 +72,14 @@ void draw()
 {
   counter=0;
   for (int t=0;t<1000;t+=200){
-    for (int i=50;i<1000;i+=200){
+    for (int i=25;i<1000;i+=200){
       dying = new Dice(i,t,150);
       counter += dying.roll();
       dying.show();
     }
   }
   fill(0,0,0);
-  text(counter, 500,500);
+  text("NUMBER OF DOTS:"+counter, 500,500);
  //dying.show();
  
  
